@@ -1,11 +1,41 @@
+aid: jpa
 name: JPA
-description: JPA is a technology or concept used in computing and information technology
-  to address specific technical challenges. It provides capabilities that help practitioners
-  build, manage, or improve systems and processes in their domain.
-url: null
+description: >-
+  Java Persistence API (JPA) is a Java specification for managing relational
+  data in Java applications. It provides an object-relational mapping (ORM)
+  framework for mapping Java objects to database tables, enabling developers to
+  interact with databases using Java objects rather than SQL.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- JPA
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - JPA
+  - Java
+  - ORM
+  - Database
+  - Persistence
+url: https://raw.githubusercontent.com/api-evangelist/jpa/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: jpa:jpa
+    name: Jakarta Persistence API
+    description: >-
+      The Jakarta Persistence API specification for object-relational mapping
+      in Java applications.
+    humanURL: https://jakarta.ee/specifications/persistence/
+    tags:
+      - ORM
+      - Database
+      - Java
+    properties:
+      - type: Documentation
+        url: https://jakarta.ee/specifications/persistence/
+common:
+  - type: Website
+    url: https://jakarta.ee/specifications/persistence/
+  - type: Documentation
+    url: https://jakarta.ee/specifications/persistence/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
