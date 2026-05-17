@@ -44,7 +44,7 @@ common:
     url: https://jakarta.ee/specifications/persistence/
   - type: Documentation
     url: https://jakarta.ee/specifications/persistence/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/jakartaee/persistence
 maintainers:
   - FN: Kin Lane
