@@ -40,6 +40,8 @@ apis:
       - type: Specification
         url: https://jakarta.ee/specifications/persistence/3.2/
 common:
+  - type: DomainSecurity
+    url: security/jpa-domain-security.yml
   - type: Website
     url: https://jakarta.ee/specifications/persistence/
   - type: Documentation
