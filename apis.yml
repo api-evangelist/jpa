@@ -9,7 +9,19 @@ description: >-
   Persistence 3.2 is the current stable release with Jakarta EE 11, while
   version 4.0 is under development for Jakarta EE 12.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jpa.png
 tags:
   - Database
   - Java
