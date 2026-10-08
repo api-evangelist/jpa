@@ -63,6 +63,12 @@ apis:
       - type: Specification
         url: https://jakarta.ee/specifications/persistence/3.2/
 common:
+  - type: Plans
+    url: plans/jpa-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/jpa-rate-limits.yml
+  - type: FinOps
+    url: finops/jpa-finops.yml
   - type: DomainSecurity
     url: security/jpa-domain-security.yml
   - type: Website
