@@ -1,4 +1,4 @@
-# JPA (jpa)
+# JPA
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,101 @@
 
 Jakarta Persistence (formerly Java Persistence API / JPA) defines a Java specification and binding layer for the management of persistence and object-relational mapping in Java environments. It provides a standardized ORM framework that enables developers to map Java objects to database tables and interact with relational data using Java rather than SQL. Jakarta Persistence 3.2 is the current stable release with Jakarta EE 11, while version 4.0 is under development for Jakarta EE 12.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/jpa/refs/heads/main/apis.yml)
+**Areas:** Database · Java · JPA · Jakarta EE · ORM · Persistence
 
-## Scope
+## JPA on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for JPA is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jpa/](https://apis.io/providers/jpa/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - JPA, Java, ORM, Database, Persistence, Jakarta EE
+- [Jakarta Persistence API](https://apis.io/apis/jpa/jpa/) — The Jakarta Persistence specification for object-relational mapping in Java applications, defining annotations, entity managers, queries via JPQL and the…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Jakarta Persistence API
-The Jakarta Persistence specification for object-relational mapping in Java applications, defining annotations, entity managers, queries via JPQL and the Criteria API, and lifecycle callbacks for managing persistent state across compatible implementations.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://jakarta.ee/specifications/persistence/](https://jakarta.ee/specifications/persistence/)
+- [Jpa Domain Security](https://apis.io/security/jpa/jpa-domain-security/)
 
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - ORM, Database, Java
+- [Jpa Plans Pricing](https://apis.io/plans/jpa/jpa-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://jakarta.ee/specifications/persistence/)
-- [Specification](https://jakarta.ee/specifications/persistence/3.2/)
+Published request limits.
 
-## Common Properties
+- [Jpa Rate Limits](https://apis.io/rate-limits/jpa/jpa-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Jpa Finops](https://apis.io/finops/jpa/jpa-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jakarta.ee/specifications/persistence/)
 - [Documentation](https://jakarta.ee/specifications/persistence/)
-- [GitHub Organization](https://github.com/jakartaee/persistence)
+- [GitHub](https://github.com/jakartaee/persistence)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jpa/](https://apis.io/providers/jpa/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JPA: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jpa/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
